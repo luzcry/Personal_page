@@ -1,0 +1,50 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FF0099;
+    font-size: medium;
+
+}
+.rose-color{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(235, 21, 188);
+}
+.half-width{
+    width: 50%;
+    float: left;
+    line-height: 4.5 em;
+}
+.side-img{
+    width: 80%;
+    padding-left: 5%;   
+}
+.primary-btn{
+color: antiquewhite;
+background-color:palevioletred;
+padding: 15px 32px;
+border-radius: 25px;
+text-decoration: none;
+line-height: 3.5em;
+
+}
+h1 {
+    font-size: 2.5em;
+    line-height: 1.5 em;
+}
+.container{
+    padding-left: 3%;
+    display: inline-block;
+}
+
+.experiences{
+    padding: 30px;
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-color: rgb(255, 0, 149);
+    border-style: dotted;
+}
+.experience-item{
+    padding: 10px;
+    border-left: 1p solid(137,130, 247, 2);
+}
