@@ -1,13 +1,11 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(177, 21, 93);
+    color: #ea1870;
     font-size: medium;
-    background: #DBE6F6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+    background: #DBE6F6;  
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  
+    background: linear-gradient(to right, #C5796D, #DBE6F6); 
 }
 .rose-color{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -20,8 +18,13 @@ body {
     line-height: 4.5 em;
 }
 .side-img{
-    width: 80%;
-    padding-left: 5%;   
+    width: 80%;  
+    margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    vertical-align: text-top;
 }
 .primary-btn{
 color: rgb(255, 0, 129);
@@ -31,17 +34,14 @@ border-radius: 25px;
 text-decoration: none;
 line-height: 3.5em;
 }
-
-h3 {
+h2 {
     color: #c7137c
 }
-
 h4{
-    color:#c7137c
-
+    color:#c7137c;
 }
 h1 {
-    color:#ea1870;
+    color:#ffc8df;
     font-size: 2.5em;
     line-height: 1.5 em;
 }
