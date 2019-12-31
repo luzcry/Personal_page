@@ -1,13 +1,18 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #FF0099;
+    color: rgb(177, 21, 93);
     font-size: medium;
+    background: #DBE6F6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 .rose-color{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(235, 21, 188);
+    color: indianred;
+    
 }
 .half-width{
     width: 50%;
@@ -19,13 +24,19 @@ body {
     padding-left: 5%;   
 }
 .primary-btn{
-color: antiquewhite;
-background-color:palevioletred;
+color: rgb(202, 6, 219);
+background-color: rosybrown;
 padding: 15px 32px;
 border-radius: 25px;
 text-decoration: none;
 line-height: 3.5em;
 
+}
+h3 {
+    color:rgb(199, 19, 124);
+}
+
+h4
 }
 h1 {
     font-size: 2.5em;
