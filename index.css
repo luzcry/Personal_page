@@ -24,21 +24,24 @@ body {
     padding-left: 5%;   
 }
 .primary-btn{
-color: rgb(202, 6, 219);
-background-color: rosybrown;
+color: rgb(255, 0, 129);
+background-color: #f78bce;
 padding: 15px 32px;
 border-radius: 25px;
 text-decoration: none;
 line-height: 3.5em;
-
 }
+
 h3 {
-    color:rgb(199, 19, 124);
+    color:#ea1870
 }
 
-h4
+h4{
+    color:rgb(199, 19, 124);
+
 }
 h1 {
+    color:#ea1870;
     font-size: 2.5em;
     line-height: 1.5 em;
 }
