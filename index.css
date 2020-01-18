@@ -15,16 +15,17 @@ body {
 .half-width{
     width: 50%;
     float: left;
-    line-height: 4.5 em;
+
 }
 .side-img{
-    width: 80%;  
-    margin-left: 20px;
+    width: 75%;  
+    margin-left: 70px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     vertical-align: text-top;
+    margin-top: 15px;
 }
 .primary-btn{
 color: rgb(255, 0, 129);
